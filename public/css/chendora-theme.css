@@ -1,0 +1,79 @@
+/* 🎨 CHENDORA CAFE THEME STYLE */
+
+/* Warna dasar */
+:root {
+    --cendol-green: #9FC131;
+    --coconut-cream: #FDF6EC;
+    --brown-sugar: #C86B32;
+    --dark-coffee: #4A2C2A;
+}
+
+/* Body */
+body {
+    background: linear-gradient(to bottom, var(--coconut-cream), var(--brown-sugar));
+    font-family: 'Poppins', sans-serif;
+    color: var(--dark-coffee);
+}
+
+/* Navbar */
+.navbar {
+    background-color: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(8px);
+    border-bottom: 2px solid var(--brown-sugar);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.navbar a {
+    color: var(--dark-coffee);
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: var(--brown-sugar);
+}
+
+/* Container utama */
+.container {
+    background: rgba(255,255,255,0.8);
+    border-radius: 16px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+    padding: 30px;
+}
+
+/* Tombol */
+.btn-success {
+    background-color: var(--cendol-green);
+    border: none;
+    transition: 0.3s;
+}
+
+.btn-success:hover {
+    background-color: #86A819;
+}
+
+.btn-danger {
+    background-color: var(--brown-sugar);
+    border: none;
+}
+
+.btn-danger:hover {
+    background-color: #A85021;
+}
+
+/* Judul halaman */
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    color: var(--dark-coffee);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background-color: var(--dark-coffee);
+    color: #fff;
+    font-size: 14px;
+    margin-top: 40px;
+}
