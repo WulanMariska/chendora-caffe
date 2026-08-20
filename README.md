@@ -1,64 +1,194 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+# ☕ CHENDORA CAFÉ
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+### Sistem Manajemen Café Berbasis Web
 
-## About Laravel
+Chendora Café adalah aplikasi berbasis web yang dikembangkan menggunakan Laravel untuk membantu pengelolaan menu café, resep, serta data pengguna/admin.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Aplikasi ini memiliki tampilan dengan konsep café yang menggunakan perpaduan warna cokelat, cream, dan nuansa natural untuk memberikan tampilan yang sederhana dan elegan.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+---
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## ✨ Fitur Utama
 
-## Learning Laravel
+### 🔐 Authentication
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Chendora memiliki sistem autentikasi untuk mengelola akses pengguna.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+Fitur yang tersedia:
 
-## Laravel Sponsors
+- Login menggunakan username dan password
+- Register akun
+- Remember Me
+- Forgot Password
+- Email Verification
+- Resend Verification Email
+- Logout
+- Validasi input
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+---
 
-### Premium Partners
+### 🍽️ Manajemen Menu
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+Halaman Menu digunakan untuk mengelola daftar makanan dan minuman yang tersedia di Chendora Café.
 
-## Contributing
+Fitur yang tersedia:
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+- Menampilkan daftar menu
+- Tambah produk
+- Edit produk
+- Hapus produk
+- Filter berdasarkan kategori
+- Kategori Makanan dan Minuman
+- Menampilkan deskripsi produk
+- Menampilkan harga dalam format Rupiah
+- Upload dan menampilkan gambar produk
+- Modal untuk melihat deskripsi produk
 
-## Code of Conduct
+Informasi produk yang ditampilkan meliputi:
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+- Nama Produk
+- Kategori
+- Deskripsi
+- Harga
+- Gambar
 
-## Security Vulnerabilities
+---
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+### 🍰 Manajemen Resep
 
-## License
+Halaman Resep digunakan untuk mengelola resep yang digunakan dalam Chendora Café.
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Fitur yang tersedia:
+
+- Menampilkan daftar resep
+- Tambah resep
+- Edit resep
+- Hapus resep
+- Menampilkan nama resep
+- Menampilkan bahan
+- Menampilkan langkah pembuatan
+- Upload dan menampilkan gambar resep
+- Modal untuk melihat bahan
+- Modal untuk melihat langkah pembuatan
+
+---
+
+### 👥 Manajemen User
+
+Fitur User digunakan oleh Admin untuk mengelola data pengguna.
+
+Fitur yang tersedia:
+
+- Menampilkan daftar pengguna
+- Tambah User
+- Edit User
+- Hapus User
+- Role Admin
+- Role User
+- Menampilkan email pengguna
+- Menampilkan tanggal pembuatan akun
+- Pagination
+
+---
+
+### 👤 Role Pengguna
+
+Chendora memiliki dua jenis role:
+
+| Role | Akses |
+|---|---|
+| Admin | Dapat mengakses dan mengelola User |
+| User | Menggunakan fitur yang tersedia untuk pengguna |
+
+Menu **Users** hanya ditampilkan kepada pengguna yang memiliki role Admin.
+
+---
+
+## 🎨 Tampilan Antarmuka
+
+Chendora Café menggunakan konsep desain café dengan perpaduan warna cokelat dan cream.
+
+### 🎨 Color Palette
+
+| Elemen | Warna |
+|---|---|
+| Primary Brown | `#5a3d2b` |
+| Dark Brown | `#4b0e0c` |
+| Accent Brown | `#6b1b13` |
+| Cream Background | `#fffaf6` |
+| Light Cream | `#fffdf9` |
+| Green Accent | `#bcd9b4` |
+| Gold Accent | `#e3a008` |
+
+### 🔤 Font
+
+- Poppins
+
+### 🛠️ UI Framework
+
+- Bootstrap 5.3
+
+---
+
+## 🛠️ Teknologi yang Digunakan
+
+| Teknologi | Penggunaan |
+|---|---|
+| PHP | Bahasa pemrograman |
+| Laravel | Web framework |
+| Laravel Blade | Template engine |
+| MySQL | Database |
+| Bootstrap 5.3 | User Interface |
+| HTML | Struktur halaman |
+| CSS | Styling |
+| JavaScript | Interaksi halaman |
+| Laravel Storage | Penyimpanan gambar |
+
+---
+
+## 📂 Struktur Project
+
+```text
+CHENDORA/
+│
+├── app/
+│   ├── Http/
+│   │   └── Controllers/
+│   ├── Models/
+│   └── Providers/
+│
+├── bootstrap/
+│
+├── config/
+│
+├── database/
+│   ├── migrations/
+│   ├── factories/
+│   └── seeders/
+│
+├── public/
+│
+├── resources/
+│   ├── css/
+│   ├── js/
+│   └── views/
+│       ├── layouts/
+│       ├── auth/
+│       ├── product/
+│       ├── resep/
+│       └── admin/
+│
+├── routes/
+│   └── web.php
+│
+├── storage/
+│   └── app/
+│       └── public/
+│
+├── tests/
+│
+├── .env.example
+├── artisan
+├── composer.json
+├── composer.lock
+└── README.md
