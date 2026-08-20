@@ -192,3 +192,23 @@ CHENDORA/
 ├── composer.json
 ├── composer.lock
 └── README.md
+
+
+
+---
+
+## 🖥️ Preview Website
+
+### 🏠 Dashboard
+![Dashboard Chendora Café](docs/dashboard%20chen.jpeg)
+
+### 🔐 Login
+![Login Chendora Café](docs/login%20chen2.jpeg)
+
+### 📝 Register
+![Register Chendora Café](docs/register%20chen.jpeg)
+
+### 🍰 Daftar Resep
+![Daftar Resep Chendora Café](docs/resep%20.jpeg)
+
+---
