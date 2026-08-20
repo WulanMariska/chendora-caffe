@@ -197,18 +197,20 @@ CHENDORA/
 
 ---
 
+---
+
 ## 🖥️ Preview Website
 
 ### 🏠 Dashboard
-![Dashboard Chendora Café](docs/dashboard%20chen.jpeg)
+![Dashboard Chendora Café](docs/dashboard.jpeg)
 
 ### 🔐 Login
-![Login Chendora Café](docs/login%20chen2.jpeg)
+![Login Chendora Café](docs/login.jpeg)
 
 ### 📝 Register
-![Register Chendora Café](docs/register%20chen.jpeg)
+![Register Chendora Café](docs/register.jpeg)
 
 ### 🍰 Daftar Resep
-![Daftar Resep Chendora Café](docs/resep%20.jpeg)
+![Daftar Resep Chendora Café](docs/resep.jpeg)
 
 ---
